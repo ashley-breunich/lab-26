@@ -61,4 +61,5 @@ Returns Footer
 
 #### UML
 [Link to UML](assets/lab-26-uml.jpg)
+
 I worked with Hai and Hollie on the UML drawing. 
