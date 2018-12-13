@@ -1,44 +1,64 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+# Lab 26
+Create a counter application using React. Hai helped me with changing the button to a link. And then I helped Kevin and Hollie with that render function. 
 
-### Author: Student/Group Name
+## Author: Ashley Breunich
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+* [Warm Up](https://repl.it/@ashbreu/destructuring-and-spread)
+* [Lab 26 Code](https://codesandbox.io/s/61z77944nk)
+* [Front End URL](https://61z77944nk.codesandbox.io/)
 
 ### Modules
 
-#### `modulename.js`
-##### Exported Values and Methods
+### `app.js`
+#### Exported Values and Methods
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+##### `Class Counter`
 
-###### `bar(array) -> array`
-Usage Notes or examples
+###### `constructor(props)`
+Declares the state
 
+###### `handleDown(e)`
+Modifies the state (decreases this.state.counter by 1)
 
-### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+###### `handleUp(e)`
+Modifies the state (increases this.state.counter by 1)
 
-#### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+###### `render() -> div`
+Returns state.counter, resulting handleUp() link, and resulting handleDown() link
 
-#### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+##### `Class App`
+
+###### `render() -> React.Fragment`
+Returns Header, Counter, Footer
+
+### `index.js`
+#### Exported Values and Methods
+
+##### `Class Main`
+
+###### `render() -> Component`
+Returns App
+
+### `header.js`
+#### Exported Values and Methods
+
+##### `Class Header`
+
+###### `render() -> Header`
+Returns Header
+
+### `footer.js`
+#### Exported Values and Methods
+
+##### `Class Footer`
+
+###### `render() -> Footer`
+Returns Footer
 
 #### UML
-Link to an image of the UML for your application and response to events
+[Link to UML](assets/lab-26-uml.jpg)
+I worked with Hai and Hollie on the UML drawing. 
